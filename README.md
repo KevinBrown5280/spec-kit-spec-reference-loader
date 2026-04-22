@@ -14,12 +14,10 @@ The Spec Reference Loader extension parses the `## References` section of the cu
 
 ```bash
 # From release
-specify extension add spec-reference-loader --from \
-  https://github.com/KevinBrown5280/spec-kit-spec-reference-loader/archive/refs/tags/v1.0.0.zip
+specify extension add spec-reference-loader --from https://github.com/KevinBrown5280/spec-kit-spec-reference-loader/archive/refs/tags/v1.0.0.zip
 
 # From main branch
-specify extension add spec-reference-loader --from \
-  https://github.com/KevinBrown5280/spec-kit-spec-reference-loader/archive/refs/heads/main.zip
+specify extension add spec-reference-loader --from https://github.com/KevinBrown5280/spec-kit-spec-reference-loader/archive/refs/heads/main.zip
 
 # Development mode (local clone)
 specify extension add --dev /path/to/spec-kit-spec-reference-loader
